@@ -1,0 +1,22 @@
+[
+    {
+        "title": "My First Project",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This project explores..."
+    },
+    {
+        "title": "My Second Project",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "In this project, I..."
+    },
+    {
+        "title": "My Third Project",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This project is a..."
+    },
+    {
+        "title": "My Fourth Project",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A project that tackles..."
+    }
+]
