@@ -1,22 +1,72 @@
 [
-    {
-        "title": "My First Project",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "This project explores..."
-    },
-    {
-        "title": "My Second Project",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "In this project, I..."
-    },
-    {
-        "title": "My Third Project",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "This project is a..."
-    },
-    {
-        "title": "My Fourth Project",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A project that tackles..."
-    }
+  {
+    "title": "Neon City Traffic Simulator",
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1400&q=80",
+    "description": "A simulation that models traffic flow through a dense futuristic city grid.",
+    "year": 2025,
+    "story": "I wanted to explore how complex systems behave when simple rules interact. This simulator models cars moving through a grid of intersections where each vehicle makes local decisions about speed and direction. As more cars enter the system, patterns begin to emerge: traffic waves, spontaneous jams, and moments of surprising fluidity."
+  },
+  {
+    "title": "Generative Album Cover Studio",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A tool that generates abstract album cover art based on musical features.",
+    "year": 2014,
+    "story": "Music has always felt visual to me. In this project I experimented with turning musical properties such as tempo, brightness, and rhythm density into shapes and color palettes. The result is a small design studio that automatically creates abstract cover art for songs."
+  },
+  {
+    "title": "Urban Tree Mapper",
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1400&q=80",
+    "description": "A mapping project that visualizes tree density across different neighborhoods.",
+    "year": 2024,
+    "story": "Cities often hide their green infrastructure in plain sight. I built a visualization that maps the distribution of trees across urban neighborhoods and highlights how canopy coverage varies block by block. The project began as curiosity but quickly turned into a reflection on how urban planning shapes everyday environments."
+  },
+  {
+    "title": "Constellation Explorer",
+    "image": "https://images.unsplash.com/photo-1502139214982-d0ad755818d8?auto=format&fit=crop&w=1400&q=80",
+    "description": "An interactive star map for exploring constellations and their mythology.",
+    "year": 2024,
+    "story": "I’ve always been fascinated by how ancient cultures looked at the same sky and saw stories in the stars. This project lets users navigate a digital night sky, highlighting constellations while revealing the myths associated with them."
+  },
+  {
+    "title": "Personal Habit Timeline",
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A visual timeline that tracks daily habits and reveals patterns over time.",
+    "year": 2099,
+    "story": "I wanted a way to reflect on routines without turning them into a rigid productivity system. This visualization tracks daily habits over months and highlights patterns that slowly emerge. Some streaks last longer than expected while others fade quickly."
+  },
+  {
+    "title": "Ocean Current Visualizer",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A flowing particle visualization of global ocean currents.",
+    "year": 2020,
+    "story": "Ocean currents are massive invisible systems that shape weather and climate. In this project I experimented with particle simulations to represent how water moves across the globe. Thousands of particles trace paths through the ocean, gradually revealing the invisible rivers of the sea."
+  },
+  {
+    "title": "Digital Garden Notebook",
+    "image": "https://i.redd.it/some-random-pics-of-my-garden-v0-kuu5c03ekqfd1.jpg?width=4000&format=pjpg&auto=webp&s=85dc811bcfbda01d2104fa4789de076e1eea2059",
+    "description": "A web-based notebook for connecting ideas through linked notes.",
+    "year": 2016,
+    "story": "Instead of organizing notes in folders, this project treats ideas like plants in a garden. Notes link to one another and grow over time as new thoughts branch off old ones. The goal was to build a space where ideas evolve rather than sit frozen in documents."
+  },
+  {
+    "title": "Night Photography Color Study",
+    "image": "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?auto=format&fit=crop&w=1400&q=80",
+    "description": "A study of how neon lighting shapes color perception in nighttime photography.",
+    "year": 2023,
+    "story": "Nighttime cities transform color in ways that daylight never does. I photographed streets under neon signs and sodium lamps, then analyzed how those lighting conditions shift the tones captured by digital cameras."
+  },
+  {
+    "title": "Weather Pattern Explorer",
+    "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1400&q=80",
+    "description": "An interactive visualization of long-term weather patterns.",
+    "year": 2021,
+    "story": "Weather data can feel overwhelming because it exists at so many different time scales. I built an interface that lets users zoom between daily fluctuations and long-term climate trends. The project explores how design choices can make complex environmental data easier to understand."
+  },
+  {
+    "title": "Procedural Landscape Generator",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A system that generates synthetic landscapes using layered noise functions.",
+    "year": 2022,
+    "story": "This project explores how simple mathematical noise functions can create surprisingly natural landscapes. By layering multiple noise fields together, mountains, valleys, and rivers begin to appear. The generator produces an endless variety of terrains that feel both algorithmic and organic."
+  }
 ]
