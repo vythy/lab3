@@ -8,7 +8,7 @@
     let languageData = [];
 
     onMount(async () => {
-        locData = await d3.csv('/loc.csv', row => ({
+        locData = await d3.csv(`${base}/loc.csv`, row => ({
             ...row,
             line: Number(row.line),
             length: Number(row.length),
