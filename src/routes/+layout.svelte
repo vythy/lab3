@@ -6,6 +6,7 @@
         { url: "/projects", title: "Projects" },
         { url: "/cv", title: "Resume" },
         { url: "/contact", title: "Contact" },
+        { url: "/meta", title: "Meta"},
         { url: "https://github.com/vythy", title: "Github" },
     ];
     let colorScheme = "light dark";
