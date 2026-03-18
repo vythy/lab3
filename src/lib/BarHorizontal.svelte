@@ -157,7 +157,7 @@
 
     .annotation {
         font-size: 0.75rem;
-        fill: black;
+        fill: currentColor;
         font-style: italic;
     }
 
