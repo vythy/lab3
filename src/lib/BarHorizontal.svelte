@@ -2,11 +2,12 @@
     import * as d3 from 'd3';
 
     export let data = [];
+    export let title = "";
 
     let width = 680;
-    let height = 420;
+    let height = 240;
 
-    let margin = { top: 40, right: 80, bottom: 80, left: 60 };
+    let margin = { top: 40, right: 110, bottom: 80, left: 60 };
     let innerWidth = width - margin.left - margin.right;
     let innerHeight = height - margin.top - margin.bottom;
 
@@ -39,6 +40,14 @@
 
         d3.select(yAxis).call(d3.axisLeft(yScale));
     }
+
+    $: if (xAxis && yAxis) {
+        d3.select(xAxis).call(
+            d3.axisBottom(xScale)
+            .ticks(Math.min(d3.max(data, d => d.value), 10))
+        );
+        d3.select(yAxis).call(d3.axisLeft(yScale));
+    }
 </script>
 
 <div class="container">
@@ -48,7 +57,7 @@
             y={28}
             text-anchor="middle"
             class="chart-title">
-            Lines of Code by Language
+            {title}
         </text>
 
         <g transform="translate({margin.left}, {margin.top})">
@@ -71,18 +80,18 @@
                     stroke="black"
                     stroke-width="2"
                 />
-                <line
+                <!-- <line
                     x1={xScale(maxBar.value) / 2}
                     x2={xScale(maxBar.value) / 2}
                     y1={yScale(maxBar.label) + yScale.bandwidth()}
                     y2={yScale(maxBar.label) + yScale.bandwidth() + 20}
                     stroke="currentcolor"
                     stroke-width="1"
-                />
+                /> -->
 
                 <text
-                    x={xScale(maxBar.value) / 2}
-                    y={yScale(maxBar.label) + yScale.bandwidth() + 42}
+                    x={xScale(maxBar.value) + 52}
+                    y={yScale(maxBar.label) + yScale.bandwidth()/2}
                     text-anchor="middle"
                     class="annotation">
                     Most lines of code
@@ -103,7 +112,7 @@
         <text
             x={margin.left + innerWidth / 2}
             y={height - 18}
-            text-anchor="middle"
+            text-anchor="start"
             class="axis-label">
             Lines of Code
         </text>
