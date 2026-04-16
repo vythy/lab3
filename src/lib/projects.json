@@ -68,5 +68,12 @@
     "description": "A system that generates synthetic landscapes using layered noise functions.",
     "year": 2022,
     "story": "This project explores how simple mathematical noise functions can create surprisingly natural landscapes. By layering multiple noise fields together, mountains, valleys, and rivers begin to appear. The generator produces an endless variety of terrains that feel both algorithmic and organic."
+  },
+  {
+    "title": "Lab 9 Visualization",
+    "image": "images/lab9.png",
+    "description": "Lab 9 bike visualizer",
+    "year": 2026,
+    "story": "Made for Lab 9 of data vis to analzyze bike traffic in greater Boston!"
   }
 ]
