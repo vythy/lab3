@@ -59,13 +59,7 @@
     $: maxBar = d3.greatest(data, d => d.value);
     $: description = `A bar chart showing project counts by year. ${data.map(d => `${d.label}: ${d.value} projects`).join(', ')}.`;
 </script>
-<button
-  on:click={toggleView}
-  aria-pressed={!showChart}
-  aria-label="Toggle between bar chart and table view"
-  class="toggle-button">
-    {showChart ? 'Show Table' : 'Show Chart'}
-</button>
+
 
 {#if showChart}
 <div class="container">
@@ -180,7 +174,13 @@
     </tbody>
 </table>
 {/if}
-
+<button
+  on:click={toggleView}
+  aria-pressed={!showChart}
+  aria-label="Toggle between bar chart and table view"
+  class="toggle-button">
+    {showChart ? 'Show Table' : 'Show Chart'}
+</button>
 <style>
     svg {
         max-width: 100%;
